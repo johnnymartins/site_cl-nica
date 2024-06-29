@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <img src="images/logo no back.png">
+            <ul>
+                <li><a href="home.html" target="_self">HOME</a></li>
+                <li><a href="atendimento.html" target="_self">ATENDIMENTO</a></li>
+                <li><a href="quem somos.html" target="_self">QUEM SOMOS</a></li>
+                <li><a href="fale conosco.html" target="_self">FALE CONOSCO</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="header">
+                <!-- Header -->
+                <!-- Aqui vai o seu header -->
+                <img src="images/fale conoscoh.png">
+            </div>
+            <div class="content">
+                <!-- Content -->
+                <!-- Aqui vai o seu conteúdo -->
+                <form action="fale conosco.html" method="get">
+                    <div class="fname">
+                        <label for="fname">Nome*:</label>
+                        <input type="text" id="fname" name="fname" required>
+                    </div>
+                    <div class="lname">
+                        <label for="lname">Sobrenome*:</label>
+                        <input type="text" id="lname" name="lname" required>
+                    </div>
+                    <div class="telephone">
+                        <label for="telephone">Telefone*:</label>
+                        <input type="tel" id="ddd" name="ddd" size="1" minlength="2" maxlength="2" required>
+                        <input type="tel" id="telephone" name="telephone" minlength="8" maxlength="9" required>
+                    </div>
+                    <div class="email">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="message">
+                        <label for="message">Mensagem:</label>    
+                        <textarea id="message" name="message"></textarea>
+                    </div>
+                    <div>
+                        <input id="reset" type="reset" value="Apagar">
+                        <input id="submit" type="submit" value="Enviar">
+                    </div>
+                </form>
+                <iframe src=
+                    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13811.283289499146!2d
+                    -51.227190792560584!3d-30.070670075338604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4
+                    f13.1!3m3!1m2!1s0x951978765575a959%3A0x57d96f785d1d2a3d!2sCarnee%20-%20Emp%C
+                    3%B3rio%20de%20Carnes%20Premium!5e0!3m2!1spt-BR!2sbr!4v1719420164916!5m2!1sp
+                    t-BR!2sbr"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="footer">
+                <!-- Footer -->
+                <!-- Aqui vai o seu rodapé -->
+                <div id="insta_icon_link">
+                    <a target="_blank" href="https://instagram.com/">
+                        <img id="insta" src="images/instagram icon1.png">
+                    </a>
+                </div>
+                <div id="facebook_icon_link">    
+                    <a target="_blank" href="https://pt-br.facebook.com/">
+                        <img id="facebook" src="images/facebook icon.png">
+                    </a>
+                </div>
+                <div id="whatsapp_icon_link">
+                    <a target="_blank" href="https://web.whatsapp.com/">
+                        <img id="whatsapp" src="images/whatsapp icon1.png">
+                    </a>
+                </div>
+                    <div id="rodapé">
+                    © 2024 - Clínica de Medicina Estética Beauty Time - Responsável Técnico(a):
+                    Victor Werner von Doom.
+                </div>
+                <div id="contact">
+                    Contatos: (51) 3888-8888
+                </div>
+                <div id="adress">
+                    <a target="_blank" href="https://maps.app.goo.gl/BwyTTZkj363cU4uh7">
+                    Endereço: R. Nunes, 295 - Medianeira, Porto Alegre - RS, 90870-390
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
